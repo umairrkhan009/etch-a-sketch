@@ -1,3 +1,4 @@
+const askGrid=16;
 
 const button = document.querySelector('.changeGrid')
 button.addEventListener('click', () => {
@@ -70,3 +71,4 @@ function clearGrid(){
 const clear = document.querySelector('.clearGrid')
 clear.addEventListener('click',clearGrid)
 
+createGrid(askGrid)
